@@ -53,6 +53,6 @@ else:
 
 texto_arquivo = f"O aluguel do carro eletrico {modelo_escolhido}, no periodo de {tempo_de_utilizacao}h, ficara no valor de R${preco_final}."
 
-arquivo = open("arquivos/resumo-aluguel.txt", "w")
+arquivo = open("resumo-aluguel.txt", "w")
 arquivo.write(texto_arquivo)
 arquivo.close()
